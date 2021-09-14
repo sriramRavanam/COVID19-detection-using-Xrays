@@ -15,7 +15,7 @@ The chest x-ray is one of the most effective non invasive methods to detect the 
 during the summer of 2020, we decided to try to build a model to detect the virus using x-ray images of the patient.
 At the time there was a lack of good datasets for chest x-rays for covid infected patients. Hence we had to work with what we found.
 
-#Preprocessing
+# Preprocessing
 The dataset contained a few distinct types of x-rays, so our first job was to select all the x-ray images which were PA x-rays (Posterior-Anterior - front view). We collected the names of the pictures corresponding to PA x-rays and stored it in a text file. 
 We wrote a batch script to read all images from that text file and copy them into another file.
 
