@@ -1,11 +1,13 @@
 # COVID19-detection-using-Xrays
-Covid 19 detection using X-ray images.  
+Covid 19 detection using X-ray images.
+
 <img src="/result_images/xray_infected.jpg" width="200" height="200">
 
 For a step by step overview of the code, please read https://github.com/sriramRavanam/COVID19-detection-using-Xrays/blob/main/info.md.
 
 # Objective
 Develop a model that can be embedded in an **Automatic Computer Aided Diagnosis** tool.
+
 ![ACAD](https://github.com/sriramRavanam/COVID19-detection-using-Xrays/blob/main/result_images/testing.jpg)
 
 # Description
