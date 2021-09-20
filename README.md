@@ -1,7 +1,7 @@
 # COVID19-detection-using-Xrays
 Covid 19 detection using X-ray images.
 
-<center><img src="/result_images/xray_infected.jpg" width="200" height="200"></center>
+<img src="/result_images/xray_infected.jpg" width="200" height="200">
 
 
 # Objective
@@ -25,8 +25,8 @@ Uses Transfer Learning to train a quick model to do task effectively.
 
 
 # Results
-We check results with different learning rates and batch sizes.
-// A SINGLE IMAGE OF THE MODEL PREDICTING OUTPUT FOR SOME RANDOM DATA
+After training, we obtain a model whose summary can be viewed here. 
+https://github.com/sriramRavanam/COVID19-detection-using-Xrays/blob/main/model_summary.txt
 
 # Outcomes
 * Learnt about the different ways to _pre-process_ the data.
@@ -69,7 +69,8 @@ Another preprocessing step we perform is data augmentation. We use the keras.pre
 The architecture used in our project is a very simple one.
 We utilize the VGG16 model with pretrained weights as our base and we add some neural layers on top of this. These are the layers whose weights we train.
 This method is a variation of __Transfer Learning__.
-// NEED AN IMAGE HERE
+
+<img src="/result_images/VGG16 model v2.jpg">
 
 So we mark the layers in the VGG16 model as _not trainable_ and then only train the remaining layers of the model on our data.
 We train using the adam optimizer and calculate loss using the binary cross entropy function.
@@ -80,8 +81,11 @@ We test using the evaluate function which is a part of keras. We test against th
 ## Learning Rate and Batch size
 We used different learning rates and batch sizes to determine the best fit.
 We need higher accuracy and low error rate.
-// NEED ALL IMAGES RELATED TO THIS HERE.
+<img src="/result_images/loss_vs_lr.jpg">      <img src="/result_images/loss_vs_batsiz.jpg">
+
+<img src="/result_images/acc_vs_lr.jpg">      <img src="/result_images/acc_vs_batsiz.jpg">
 
 
+Under the guidance of Dr. Vijaya Shetty, NMIT.
 
-// NEED TO ADD TEACHER's NAME AS WELL AS OURS
+Sriram Ravanam, Vishnu LGC.
