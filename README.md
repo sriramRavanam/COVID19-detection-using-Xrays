@@ -81,6 +81,7 @@ We test using the evaluate function which is a part of keras. We test against th
 ## Learning Rate and Batch size
 We used different learning rates and batch sizes to determine the best fit.
 We need higher accuracy and low error rate.
+
 <img src="/result_images/loss_vs_lr.jpg">      <img src="/result_images/loss_vs_batsiz.jpg">
 
 <img src="/result_images/acc_vs_lr.jpg">      <img src="/result_images/acc_vs_batsiz.jpg">
