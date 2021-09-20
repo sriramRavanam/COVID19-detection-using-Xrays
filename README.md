@@ -14,7 +14,8 @@ Train a model to distinguish between covid19 infected and healthy _PA chest x-ra
 //NEED IMAGE HERE - maybe one of the infected x-rays or an image of the virus
 
 Uses Transfer Learning to train a quick model to do task effectively.
-//NEED IMAGE HERE - VGG16 model image, using which we built our model
+
+<img src="/result_images/VGG16.png" width="400" height="200">
 
 # APIs used
 1. Tensorflow
